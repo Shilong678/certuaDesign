@@ -1,0 +1,34 @@
+<mat-toolbar color="primary">
+    <span>
+      <button mat-button id="brand" [routerLink]="['']">Certua</button>
+    </span>
+  
+    <span class="spacer"></span>
+  
+    <span>
+      <button mat-button class="navButton hvr-underline-from-right "  [routerLink]="['']">Suppliers</button>
+    </span>
+    <span>
+      <button mat-button class="navButton hvr-underline-from-right" [routerLink]="['']">
+        Distributors
+      </button>
+    </span>
+    <span>
+      <mat-menu #company="matMenu">
+        <button mat-menu-item>About Us</button>
+        <button mat-menu-item>Meet the team</button>
+        <button mat-menu-item>Career</button>
+        <button mat-menu-item>News</button>
+      </mat-menu>
+      <button mat-button class="navButton hvr-underline-from-right" [matMenuTriggerFor]="company">
+        Company
+      </button>
+    </span>
+    <span>
+      <button mat-button class="navButton hvr-underline-from-right" [routerLink]="['']">Partners</button>
+    </span>
+  
+    <span>
+      <button mat-button class="navButton hvr-underline-from-right" [routerLink]="['']">Contact</button>
+    </span>
+  </mat-toolbar>

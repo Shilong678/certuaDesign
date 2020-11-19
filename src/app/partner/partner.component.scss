@@ -1,0 +1,15 @@
+.partner {
+    cursor: pointer;
+    height: 220px;
+    width: 313px;
+    box-shadow: 0px 10px 10px #555;
+    perspective: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    image {
+        width: 265px;
+    }
+}

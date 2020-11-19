@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap-grid';
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import '~hover.css/scss/hover.scss';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Poppins', sans-serif;}

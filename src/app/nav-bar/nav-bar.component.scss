@@ -1,0 +1,29 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+  
+  #brand {
+      font-size: large;
+      color: #000000;
+  }
+
+  
+  .navButton {
+      font-size: medium;
+      font-weight: 500;
+      color: #555;
+        
+  }
+  
+  
+  .mat-toolbar{
+      background-color: transparent;
+  }
+
+  .mat-button,
+.mat-menu-item,
+.mat-icon-button {
+  outline: none;
+
+
+}

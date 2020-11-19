@@ -1,0 +1,34 @@
+footer {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-toolbar#copToolbar {
+      background-color: transparent;
+      
+  }
+
+  #disclaimer {
+      font-style: italic;
+      font-size: small;
+      padding: 1%;
+  }
+
+  #copyright{
+    font-size: medium;
+
+  }
+
+  .iso-image {
+      height: 54px;
+      width: 164px;
+  }
+
+  .social-icon {
+    height: 24px;
+    width: 24px;
+  }
